@@ -9,6 +9,7 @@ const server = http
     });
 
     switch (req.method) {
+      
       case 'GET':
         if (req.url === '/') {
           res.write('<!DOCTYPE html><html lang="ja"><body>' +
